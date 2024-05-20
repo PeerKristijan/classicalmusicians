@@ -1,0 +1,126 @@
+<!--
+a. Universiti Kuala Lumpur
+b. Rafique bin Ahmad Adzam (52052323128)
+c. Week 17 Project
+d. Ezat Akarudim
+e. Submission date
+-->
+
+<!DOCTYPE html>
+<html>
+    <title>Vivaldi</title>
+    <link rel="stylesheet" type="text/css" href="bbb.css">
+    <header>
+        <h1 class = "center"> Vivaldi </h1>
+        <style>
+            @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+                }
+            100% {
+                transform: rotate(360deg);
+                }
+            }
+        .center {
+            text-align: center;
+            animation: spin 2s infinite;
+            animation-iteration-count: 1;
+            color: white;
+        }
+        </style>
+        <p class = "center">
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/b/bd/Vivaldi.jpg" width = "20%" height = "40%">
+            <br><br>
+            <video controls width = "30%" height = "30%"> <source src = "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Pause-caf%C3%A9_chez_William_-_Sonate_pour_violoncelle_RV46_de_Vivaldi.webm/Pause-caf%C3%A9_chez_William_-_Sonate_pour_violoncelle_RV46_de_Vivaldi.webm.720p.vp9.webm" type="video/webm"></video>
+        </p>
+        <style>
+            .box {
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            }
+            .green {
+                color: green;
+            }
+            .white {
+                color: white;
+            }
+            .red {
+                color: red;
+            }
+        </style>
+        <script>
+            function changeColor() {
+                document.getElementById("one").classList.add("green");
+                document.getElementById("two").classList.add("white");
+                document.getElementById("three").classList.add("red");
+            }
+        </script>
+            <h4 id="one">:</h4>
+            <h4 id="two">:</h4>
+            <h4 id="three">:</h4>
+            <button onclick = "changeColor()">Show nationality color</button>
+        </script>
+        </header>
+        <br>
+        <section>
+        <style>
+            .bc td {background-color: pink;
+                 border-collapse: collapse;
+                 border: 1px solid black;
+                 padding: 8px;}
+            .bc {background-color: grey;
+                 margin-left: auto;
+                 margin-right: auto;}
+        </style>
+        <table class = "bc">
+            <tr>
+                <td> Year </td>
+                <td> Major Works </td>
+            </tr>
+            <tr>
+                <td>1705</td>
+                <td>Connor Cassara</td>
+            </tr>
+            <tr>
+                <td>1709</td>
+                <td>Opus 2</td>
+            </tr>
+            <tr>
+                <td>1711</td>
+                <td>Opus 3</td>
+            </tr>
+            <tr>
+                <td>1718</td>
+                <td>Four Seasons</td>
+            </tr>
+        </table>
+        </section>
+    
+        <section>
+            <style>
+                p {
+                    font-weight: bold;
+                    font-family: 'Verdana';
+                }
+            </style>
+            <p class = 'white'>
+                Antonio Lucio Vivaldi was born on March 4, 1678, in Venice, <abbr title="Italy">IT</abbr>, to Giovanni Battista Vivaldi and Camilla Calicchio. He was baptized immediately after birth, likely due to his poor health or a supposed earthquake that day, which may have been misremembered as occurring on the same day. Two months later, the usual baptismal ceremonies were performed. Vivaldi had five siblings, and his health was fragile, with symptoms of "tightness of the chest" that may have been a form of asthma. Despite these challenges, Vivaldi learned to play the violin and compose music, although he was unable to play wind instruments.
+            </p>
+        </section>
+        <section>
+            <script>
+                function showMessage() {
+                    let message = "Music is the mistress of the passions, and the passions are the mistresses of the soul.";
+                    alert(message);
+                }
+             </script>
+            <button onclick = "showMessage()" >Click for quote from Vivaldi</button>
+        </section>
+        <footer>
+            <p class = 'white'>
+                For any questions or concerns, kindly go to our contact page by clicking one of the two buttons below
+            </p>
+            <a href = "mailto:peerkristijan@gmail.com"><button>Send me an email</button></a>
+            <a href = "contact.html"><button>Contact Form</button></a>
+            <script src="script.js"></script>
+            </footer>
+        </html>

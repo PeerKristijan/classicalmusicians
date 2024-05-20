@@ -1,0 +1,104 @@
+<!--
+a. Universiti Kuala Lumpur
+b. Rafique bin Ahmad Adzam (52052323128)
+c. Week 17 Project
+d. Ezat Akarudim
+e. Submission date
+-->
+
+<!DOCTYPE html>
+<html>
+    <header>
+    <title> Beethoven </title>
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+                }
+            100% {
+                transform: rotate(360deg);
+                }
+            }
+        .center {
+            text-align: center;
+            animation: spin 2s infinite;
+            animation-iteration-count: 1;
+        }
+        .Lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <h1 class = "center"> Beethoven </h1>
+    <p class = "center">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Beethoven_3.jpg/640px-Beethoven_3.jpg" width = "20%" height = "40%">
+        <br><br>
+        <audio controls> <source src = "https://upload.wikimedia.org/wikipedia/commons/3/3f/Moonlight_Sonata_%28Sharp_c_minor_Sonata%29_2nd_Movement_Beethoven_JMC%2CHan.ogg" type = "audio/wav"></audio>
+    </p>
+        <style>
+            .black {
+                color: black;
+            }
+            .red {
+                color: red;
+            }
+            .yellow {
+                color: yellow;
+            }
+        </style>
+        <script>
+            function changeColor() {
+                document.getElementById("one").classList.add("black");
+                document.getElementById("two").classList.add("red");
+                document.getElementById("three").classList.add("yellow");
+            }
+        </script>
+            <h4 id="one">:</h4>
+            <h4 id="two">:</h4>
+            <h4 id="three">:</h4>
+            <button onclick = "changeColor()">Show nationality color</button>
+        </script>
+    </header>
+    <br>
+    <section>
+    <p class>
+        Ludwig van Beethoven was born on December 17, 1770, in Bonn, Germany. He came from a musical family, with his grandfather serving as a court musician and his father working as a singer and music teacher. Beethoven showed his musical talent at a young age, beginning piano lessons with his father at the age of 5. By the time he was 12, he was already serving as assistant organist at the court of the Elector of Cologne.
+    </p>
+    <p class>
+        Despite his musical talent, Beethoven faced challenges in his early life, particularly in his family life. His father struggled with alcoholism, and Beethoven was often forced to take on the responsibilities of supporting his family. Despite these challenges, Beethoven continued to excel in his musical studies and eventually moved to Vienna in 1792 to study with the renowned composer Joseph Haydn. It was in Vienna that Beethoven began to make a name for himself as a composer and performer, eventually becoming one of the most celebrated and influential composers in history.
+    </p>
+    </section>
+
+    <section>
+    <h3 style = "color:red;">
+        The following are the three aspects of his play style that makes him highly unique as an artist:
+    </h3>
+    <ol>
+        <li class = 'Lato'>
+            His innovative use of harmonic and rhythmic elements. Beethoven was known for pushing the boundaries of traditional tonality and structure in his compositions, introducing new harmonic progressions and complex rhythmic patterns that were ahead of his time.
+        </li>
+        <li class = 'Lato'>
+            His use of dynamic contrasts and dramatic shifts in his music. Beethoven was a master at creating tension and release in his compositions, often incorporating sudden changes in volume, tempo, and mood to create compelling and powerful musical narratives.
+        </li>
+        <li class = 'Lato'>
+            His use of thematic development and motivic unity in his compositions. Beethoven was known for taking a small musical idea or motif and transforming it throughout a work, exploring different variations and developments to create a cohesive and unified piece of music.
+        </li>
+    </ol>
+    </section>
+    <section>
+        <script>
+            function showMessage() {
+                let message = "Music is the mediator between the spiritual and the sensual life.";
+                alert(message);
+            }
+         </script>
+        <button onclick = "showMessage()" >Click for quote from Beethoven</button>
+    </section>
+    <footer>
+        <p>
+            For any questions or concerns, kindly go to our contact page by clicking one of the two buttons below
+        </p>
+        <a href = "mailto:peerkristijan@gmail.com"><button>Send me an email</button></a>
+        <a href = "contact.html"><button>Contact Form</button></a>
+        <script src="script.js"></script>
+        </footer>
+    </html>

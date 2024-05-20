@@ -1,0 +1,127 @@
+<!--
+a. Universiti Kuala Lumpur
+b. Rafique bin Ahmad Adzam (52052323128)
+c. Week 17 Project
+d. Ezat Akarudim
+e. Submission date
+-->
+
+<!DOCTYPE html>
+<html>
+    <title>Tchaikovsky</title>
+    <link rel="stylesheet" type="text/css" href="bbb.css">
+    <header>
+    <h1 class = "center"> Tchaikovsky </h1>
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+                }
+            100% {
+                transform: rotate(360deg);
+                }
+            }
+        .center {
+            text-align: center;
+            animation: spin 2s infinite;
+            animation-iteration-count: 1;
+            color: white;
+        }
+    </style>
+    <p class = "center">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/640px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg" width = "20%" height = "40%">
+        <br><br>
+        <audio controls> <source src = "https://upload.wikimedia.org/wikipedia/commons/9/97/Tchaikovsky_Symphony_No.3_in_D_major_III._Andante_%28Tchaikovsky%29_European_Archive.ogg" type = "audio/wav"></audio>
+    </p>
+    <style>
+        .white {
+            color: white;
+        }
+        .blue {
+            color: blue;
+        }
+        .red {
+            color: red;
+        }
+        .white {
+            color: white;
+        }
+    </style>
+    <script>
+        function changeColor() {
+            document.getElementById("one").classList.add("white");
+            document.getElementById("two").classList.add("blue");
+            document.getElementById("three").classList.add("red");
+        }
+    </script>
+        <h4 id="one">:</h4>
+        <h4 id="two">:</h4>
+        <h4 id="three">:</h4>
+        <button onclick = "changeColor()">Show nationality color</button>
+    </script>
+    </header>
+    <br>
+    <section>
+    <style>
+        .bc td {background-color: grey;
+             border-collapse: collapse;
+             border: 1px solid black;
+             padding: 8px;}
+        .bc {background-color: yellow;
+             margin-left: auto;
+             margin-right: auto;}
+    </style>
+    <table class = "bc">
+        <tr>
+            <td> Year </td>
+            <td> Major Works </td>
+        </tr>
+        <tr>
+            <td>1840</td>
+            <td>Winter Daydreams</td>
+        </tr>
+        <tr>
+            <td>1877</td>
+            <td>The Sleeping Beauty</td>
+        </tr>
+        <tr>
+            <td>1884</td>
+            <td>The Nutcracker</td>
+        </tr>
+        <tr>
+            <td>1892</td>
+            <td>Iolanta</td>
+        </tr>
+    </table>
+    </section>
+
+    <section>
+        <style>
+            p {
+                font-weight: bold;
+                font-family: 'Bonbon', cursive;
+            }
+        </style>
+        <p class = 'white'>
+            The <abbr title="Imperial School of Jurisprudence">ISJ</abbr>, founded in 1835 by Emperor Nicholas I, was a prestigious institution in Russia aimed at training lawyers and civil servants. Pyotr Ilyich Tchaikovsky, a famous composer, attended the school from 1850 to 1859 but chose a career in music over law. His legal education influenced his compositions, particularly his operas and ballets, by providing him with structure, logic, and form. Tchaikovsky's works are known for their precision, emotional depth, and beauty, all aspects attributed partly to his education at the Imperial School of Jurisprudence. This institution's influence on Tchaikovsky's compositions remains a significant part of his legacy and the connection between law and the arts.
+        </p>
+    </section>
+    <section>
+        <script>
+            function showMessage() {
+                let message = "Music is the only true nobility of life.";
+                alert(message);
+            }
+         </script>
+        <button onclick = "showMessage()" >Click for quote from Tchaikovsy</button>
+    </section>
+    <footer>
+        <p class = 'white'>
+            For any questions or concerns, kindly go to our contact page by clicking one of the two buttons below
+        </p>
+        <a href = "mailto:peerkristijan@gmail.com"><button>Send me an email</button></a>
+        <a href = "contact.html"><button>Contact Form</button></a>
+        <script src="script.js"></script>
+        </footer>
+    </html>
+

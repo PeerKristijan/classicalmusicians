@@ -1,0 +1,134 @@
+<!--
+a. Universiti Kuala Lumpur
+b. Rafique bin Ahmad Adzam (52052323128)
+c. Week 17 Project
+d. Ezat Akarudim
+e. Submission date
+-->
+
+<!DOCTYPE html>
+<html>
+    <title>Debussy</title>
+    <link rel="stylesheet" type="text/css" href="bbb.css">
+    <header>
+    <style>
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+                }
+            100% {
+                transform: rotate(360deg);
+                }
+            }
+        .center {
+            text-align: center;
+            animation: spin 2s infinite;
+            animation-iteration-count: 1;
+            color: white;
+        }
+    </style>
+    <h1 class = "center"> Debussy </h1>
+    <p class = "center">
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Claude_Debussy_ca_1908%2C_foto_av_F%C3%A9lix_Nadar.jpg/640px-Claude_Debussy_ca_1908%2C_foto_av_F%C3%A9lix_Nadar.jpg" width = "20%" height = "40%">
+        <br><br>
+        <video controls width = "30%" height = "30%"> <source src = "https://upload.wikimedia.org/wikipedia/commons/7/7a/%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%A2%D0%B0%D0%BD%D0%B5%D1%86_%D0%A4%D0%B5%D0%B8_%D0%94%D1%80%D0%B0%D0%B6%D0%B5_%D0%B8%D0%B7_%D0%B1%D0%B0%D0%BB%D0%B5%D1%82%D0%B0_%D0%A9%D0%B5%D0%BB%D0%BA%D1%83%D0%BD%D1%87%D0%B8%D0%BA.webm" type="video/mp4"></video>
+    </p>
+    <style>
+        .blue {
+            color: blue;
+        }
+        .white {
+            color: white;
+        }
+        .red {
+            color: red;
+        }
+    </style>
+    <script>
+        function changeColor() {
+            document.getElementById("one").classList.add("blue");
+            document.getElementById("two").classList.add("white");
+            document.getElementById("three").classList.add("red");
+        }
+    </script>
+        <h4 id="one">:</h4>
+        <h4 id="two">:</h4>
+        <h4 id="three">:</h4>
+        <button onclick = "changeColor()">Show nationality color</button>
+    </script>
+    </header>
+    <br>
+    <style>
+        .bc td {background-color: red;
+             border-collapse: collapse;
+             border: 1px solid black;
+             padding: 8px;}
+        .bc {background-color: brown;
+             margin-left: auto;
+             margin-right: auto;}
+    </style>
+    <table class = "bc">
+        <tr>
+            <td> Year </td>
+            <td> Major Works </td>
+        </tr>
+        <tr>
+            <td>1890</td>
+            <td>Claire de Lune</td>
+        </tr>
+        <tr>
+            <td>1904</td>
+            <td>La Mer</td>
+        </tr>
+        <tr>
+            <td>1910</td>
+            <td>La cathedrale engloutie</td>
+        </tr>
+    </table>
+    </section>
+    
+    <section>
+        <style>
+        .white {
+            color: white;
+        }
+        </style>
+        <p class = 'white' >Claude Debussy was born on August 22, 1862, in Saint-Germain-en-Laye, France, to a family that struggled to make ends meet. His father's china shop and mother's seamstress business failed, and the family moved to Paris in 1864. Debussy's early life was marked by instability and financial struggles, but he discovered his passion for music at the age of 7 while taking piano lessons in Cannes during the Franco-Prussian War. He continued his studies at the Conservatoire de Paris, where he made rapid progress initially, but became increasingly undisciplined and careless in his studies. Despite his struggles, Debussy won several awards for his performances, including the premier accessit in 1875 and second prize in 1877. However, he failed to progress further due to his lack of discipline, and instead secured summer vacation jobs as pianist at Château de Chenonceau and as pianist in the household of Nadezhda von Meck, patroness of Tchaikovsky. During these periods, Debussy composed his first pieces, including settings of poems by Alfred de Musset and a piano trio for von Meck's ensemble. </p>
+    </section>
+
+    <section>
+
+    <h3 style = "color:red;">
+        The following are the three aspects of his play style that makes him highly unique as an artist:
+    </h3>
+    <ol>
+        <li class = 'white'>
+            His innovative use of harmonic and rhythmic elements. Beethoven was known for pushing the boundaries of traditional tonality and structure in his compositions, introducing new harmonic progressions and complex rhythmic patterns that were ahead of his time.
+        </li>
+        <li class = 'white'>
+            His use of dynamic contrasts and dramatic shifts in his music. Beethoven was a master at creating tension and release in his compositions, often incorporating sudden changes in volume, tempo, and mood to create compelling and powerful musical narratives.
+        </li>
+        <li class = 'white'>
+            His use of thematic development and motivic unity in his compositions. Beethoven was known for taking a small musical idea or motif and transforming it throughout a work, exploring different variations and developments to create a cohesive and unified piece of music.
+        </li>
+    </ol>
+    </section>
+    <section>
+        <script>
+            function showMessage() {
+                let message = "Music is the silence between the notes.";
+                alert(message);
+            }
+         </script>
+        <button onclick = "showMessage()" >Click for quote from Debussy</button>
+    </section>
+    <footer>
+        <p class = 'blue'>
+            For any questions or concerns, kindly go to our contact page by clicking one of the two buttons below
+        </p>
+        <a href = "mailto:peerkristijan@gmail.com"><button>Send me an email</button></a>
+        <a href = "contact.html"><button>Contact Form</button></a>
+        <script src="script.js"></script>
+        </footer>
+    </html>
+
